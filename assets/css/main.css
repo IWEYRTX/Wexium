@@ -1,6 +1,13 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
-
+@font-face {
+	font-family: 'MMM'; 
+	src: local('MMM'),
+		url(assets\fonts\Monocraft.ttf); 
+}
+body {
+    font-family: MMM;
+    line-height: 1.6;
+}
 .glow-on-hover {
     width: 220px;
     height: 50px;

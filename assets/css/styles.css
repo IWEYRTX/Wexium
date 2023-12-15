@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'MMM'; 
+	src: local('MMM'),
+		url(assets\fonts\Monocraft.ttf); 
+}
+body {
+    font-family: MMM;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
