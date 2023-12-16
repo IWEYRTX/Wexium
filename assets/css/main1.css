@@ -1,9 +1,16 @@
 @charset "UTF-8";
 @font-face {
-	font-family: 'MMM'; 
-	src: local('MMM'),
-		url(assets\fonts\Monocraft.ttf); 
-}
+	font-family: 'Monocraft';
+	src: url('../assets/fonts/Monocraft.ttf') format('truetype');
+   }
+   
+   body {
+	background: #1D1D1D;
+	font-family: 'Monocraft', monospace;
+	color: #E8E8E8;
+	margin: 0;
+	padding: 0;
+   }
 body {
     font-family: MMM;
     line-height: 1.6;

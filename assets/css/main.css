@@ -1,15 +1,19 @@
 @charset "UTF-8";
 @font-face {
-	font-family: 'MMM'; 
-	src: local('MMM'),
-		url(assets\fonts\Monocraft.ttf); 
-}
-body {
-    font-family: MMM;
-    line-height: 1.6;
-}
+	font-family: 'Monocraft';
+	src: url('../assets/fonts/Monocraft.ttf') format('truetype');
+   }
+   
+   body {
+	background: #1D1D1D;
+	font-family: 'Monocraft', monospace;
+	color: #E8E8E8;
+	margin: 0;
+	padding: 0;
+   }
 .glow-on-hover {
     width: 220px;
+	font-family: 'Monocraft', monospace;
     height: 50px;
     border: none;
     outline: none;
@@ -26,6 +30,7 @@ body {
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
     top: -2px;
+	font-family: 'Monocraft', monospace;
     left:-2px;
     background-size: 400%;
     z-index: -1;
@@ -100,15 +105,16 @@ body {
             }
             
             #GG {
-            background-color: #9400d3;
+            background-color: #280072;
             padding: 20px;
+			font-family: 'Monocraft', monospace;
             text-align: center;
             }
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.65);
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: rgba(0, 131, 238, 0.897);
+		font-family: 'Monocraft', monospace;
 		font-size: 13pt;
 		font-weight: 200;
 		line-height: 1.65;
@@ -139,6 +145,7 @@ body {
 
 	strong, b {
 		color: #ffffff;
+		font-family: 'Monocraft', monospace;
 		font-weight: 200;
 	}
 
@@ -151,7 +158,7 @@ body {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #0bb9d8;
 		font-weight: 200;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -172,12 +179,15 @@ body {
 
 	h1 {
 		font-size: 1.75em;
+		font-family: 'Monocraft', monospace;
+		color: #3d015f
 	}
 
 		@media screen and (max-width: 980px) {
 
 			h1 {
 				font-size: 1.5em;
+				color: #4700ec
 			}
 
 		}
@@ -291,7 +301,7 @@ body {
 	}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.65);
+			color: rgba(226, 0, 0, 0.65);
 		}
 
 		#header .avatar {
@@ -299,8 +309,8 @@ body {
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
-			border: solid 1px rgba(255, 255, 255, 0.25);
-			background-color: rgba(255, 255, 255, 0.075);
+			border: solid 1px rgb(79, 0, 226);
+			background-color: rgb(86, 0, 126);
 		}
 
 			#header .avatar img {
