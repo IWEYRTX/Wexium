@@ -11,14 +11,6 @@
 	margin: 0;
 	padding: 0;
    }
-body {
-        display: block;
-        font-family: 'Monocraft', monospace;
-        background: #000000;
-         color: #eee;
-         margin: 0;
-         padding: 0;
-}
 
 .neon {
     color: rgb(0, 0, 0);
@@ -55,12 +47,9 @@ nav a:hover {
     background-color: #376ea17f;
     padding: 20px;
     margin: 10px;
-    border-radius: 5px;
-}
-
-.project h4 {
     color: rgb(96, 52, 154);
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 a {
