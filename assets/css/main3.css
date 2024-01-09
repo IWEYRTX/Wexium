@@ -1,0 +1,84 @@
+
+@font-face {
+	font-family: 'Monocraft';
+	src: url('../assets/fonts/Monocraft.ttf') format('truetype');
+   }
+   
+   body {
+	background: #000000;
+	font-family: 'Monocraft', monospace;
+	color: #E8E8E8;
+	margin: 0;
+	padding: 0;
+   }
+body {
+        display: block;
+        font-family: 'Monocraft', monospace;
+        background: #000000;
+         color: #eee;
+         margin: 0;
+         padding: 0;
+}
+
+.neon {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgb(36, 255, 255), 0 0 10px #6ff, 0 0 15px #6ff, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: rgb(155, 36, 199);
+    text-shadow: 0 0 5px rgb(48, 208, 155), 0 0 10px rgb(17, 75, 220), 0 0 15px rgb(0, 0, 0), 0 0 20px #ff00de, 0 0 30px #200054, 0 0 40px #ff00de;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #362287;
+}
+
+.project {
+    background-color: #376ea17f;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.project h4 {
+    color: rgb(96, 52, 154);
+    margin-bottom: 10px;
+}
+
+a {
+    list-style-type: none;
+    color: rgba(57, 236, 156, 0.485);
+    text-shadow: 0 0 5px rgb(48, 208, 155), 0 0 10px rgb(17, 75, 220), 0 0 15px rgb(0, 0, 0), 0 0 20px #ff00de, 0 0 30px #200054, 0 0 40px #ff00de;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(167, 100, 255);
+    padding: 0;
+}
+
+li {
+    background-color: #3a3939;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
