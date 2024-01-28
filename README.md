@@ -1,2 +1,2 @@
 # Wexium
-Wexium-m3w
+Wexium
