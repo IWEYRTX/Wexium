@@ -35,7 +35,7 @@ nav li {
 
 nav a {
     color: rgb(155, 36, 199);
-    text-shadow: 0 0 5px rgb(48, 208, 155), 0 0 10px rgb(17, 75, 220), 0 0 15px rgb(0, 0, 0), 0 0 20px #ff00de, 0 0 30px #200054, 0 0 40px #ff00de;
+    text-shadow: 0 0 5px rgb(48, 208, 155), 0 0 10px rgb(113, 3, 187), 0 0 15px rgb(0, 0, 0), 0 0 20px #ff00de, 0 0 30px #200054, 0 0 40px #ff00de;
     text-decoration: none;
 }
 
@@ -66,8 +66,8 @@ ul {
 }
 
 li {
-    background-color: #3a3939;
-    padding: 5px;
+    padding: 7px;
+    color: rgb(167, 100, 255);
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 13px;
 }
