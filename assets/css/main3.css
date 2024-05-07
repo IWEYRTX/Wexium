@@ -43,11 +43,20 @@ nav a:hover {
     color: #362287;
 }
 
-.project {
+.Dev {
     background-color: #376ea17f;
     padding: 20px;
     margin: 10px;
-    color: rgb(96, 52, 154);
+    color: rgb(27, 203, 209);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.Dev0 {
+    background-color: #376ea17f;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(255, 0, 0);
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -61,13 +70,19 @@ a {
 
 ul {
     list-style-type: none;
-    color: rgb(167, 100, 255);
+    color: rgb(21, 4, 44);
     padding: 0;
 }
 
 li {
     padding: 7px;
-    color: rgb(167, 100, 255);
+    color: rgb(48, 190, 233);
     margin: 5px;
     border-radius: 13px;
 }
+
+.round {
+    width: 70px; height: 70px; /* Ширина и высота */
+    border-radius: 50%; /* Превращаем в круг */
+    background-size: auto 300px; /* Высота фотографии равна высоте элемента */
+   }
